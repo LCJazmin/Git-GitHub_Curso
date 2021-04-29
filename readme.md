@@ -144,7 +144,7 @@ Resultado
 | CampoA1 | CampoB1 | CampoC1 | CampoD1 |
 | CampoA2 | CAmpoB2 | CampoC2 | CampoD2 |
 | CampoA3 | CampoB3 | CampoC3 | CampoD3 |
-.
+
 
 # CITAS
 Asi se crea una cita en Markdown
