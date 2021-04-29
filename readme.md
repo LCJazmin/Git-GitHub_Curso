@@ -1,3 +1,4 @@
+Soy texto dentro de un README.MD para GitHub
 # CABECERAS
 # cabecera H1 
 ## cabecera H2
@@ -14,15 +15,15 @@ Underline 2. Se escribe signo igual debajo del texto para generar un forato dife
 =
 
 # FORMATO DE TEXTO
-*Texto en formato itálica, se pone el texto/palabra/caracter entre asteriscos. Forma 1*
+*Texto en formato itálica, se pone el texto/palabra/caracter entre asteriscos. Forma 1.*
 
-_Texto en formato itálica, se pone el texto/palabra/caracter entre guión bajo. Forma 2_
+_Texto en formato itálica, se pone el texto/palabra/caracter entre guión bajo. Forma 2._
 
-**Texto en formato bold o strong, se pone el texto/palabra/caracter entre dos asteristicos. Forma 1**
+**Texto en formato bold o strong, se pone el texto/palabra/caracter entre dos asteristicos. Forma 1.**
 
-__Texto en formato bold o strong, se pone el texto/palabra/caracter entre dos guiones bajos. Forma 2__
+__Texto en formato bold o strong, se pone el texto/palabra/caracter entre dos guiones bajos. Forma 2.__
 
-~~Texto en formato tachado, se pone el texto/palabra/caracter entre dos guiones bajos. Forma 2~~
+~~Texto en formato tachado, se pone el texto/palabra/caracter entre dos guiones bajos. Forma 2.~~
 
 Podemos tener todas las formas de formato en un solo texto, por ejemplo, tenemos formato *italica*, formato **bold** y formato ~~tachado~~.
 
@@ -48,11 +49,119 @@ Para listas ordenadas y desordenadas combinadas
 
 # LINKS
  
-<a href="https://www.google.com.mx/">Este es un LINK a GOOGLE en HTML</a><br>
-[Este es un LINK a GOOGLE en Markdown [Descripcion](URL del link)](https://www.google.com.mx/)<br>
+<a href="https://www.google.com.mx/">Este es un LINK a GOOGLE en HTML</a>
+
+[Descripcion](URL de la pagina)
+
+[Este es un LINK a GOOGLE en Markdown ](https://www.google.com.mx/)
+
 [Este es un LINK a index del proyecto](index.html)
 
-Soy texto dentro de un README.MD para GitHub
 
 # IMAGENES
-![Esta es una imagen con Markdowm](http://geekytheory.com/wp-content/uploads/2014/05/historia_octocat.jpg)
+![Descrpcion](URL de la imagen)
+![Esta es una imagen con Markdowm](https://image.flaticon.com/icons/png/512/25/25231.png)
+
+# CODE SNIPPETS
+Código JSON
+``` JSON
+[
+  {
+    "title": "apples",
+    "count": [12000, 20000],
+    "description": {"text": "...", "sensitive": false}
+  },
+  {
+    "title": "oranges",
+    "count": [17500, null],
+    "description": {"text": "...", "sensitive": false}
+  }
+]
+```  
+Código Javascript
+```Javascript
+function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i < classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    <div>
+      <web-component>{block}</web-component>
+    </div>
+  )
+}
+
+export  $initHighlight;
+```
+Código Markdown
+```Markdowm
+# hello world
+
+you can write text [with links](http://example.com) inline or [link references][1].
+
+* one _thing_ has *em*phasis
+* two __things__ are **bold**
+
+[1]: http://example.com
+
+---
+
+hello world
+===========
+
+<this_is inline="xml"></this_is>
+
+> markdown is so cool
+
+    so are code segments
+
+1. one thing (yeah!)
+2. two thing `i can write code`, and `more` wipee!
+```
+Visitar https://highlightjs.org/static/demo/ para conocer más sobre como adjuntar códigos a README.MD
+
+# TABLAS
+Codigo para generar una tabla
+```
+| ColumnaA | ColumnaB | ColumnaC | ColumnaD |
+|----------|----------|----------|----------|
+| CampoA1 | CampoB1 | CampoC1 | CampoD1 |
+| CampoA2 | CAmpoB2 | CampoC2 | CampoD2 |
+| CampoA3 | CampoB3 | CampoC3 | CampoD3 |
+```
+Resultado
+| ColumnaA | ColumnaB | ColumnaC | ColumnaD |
+|----------|----------|----------|----------|
+| CampoA1 | CampoB1 | CampoC1 | CampoD1 |
+| CampoA2 | CAmpoB2 | CampoC2 | CampoD2 |
+| CampoA3 | CampoB3 | CampoC3 | CampoD3 |
+.
+
+# CITAS
+Asi se crea una cita en Markdown
+```
+> Esto es el contenido de la cita
+```
+Resultado
+> Esto es el contenido de la cita
+
+# LINEAS DIVISORAS
+Este es un texto, linea divisora creada por 3 asteriscos (***) debajo del texto
+***
+Este es un texto, linea divisora creada por 3 guiones medios (---) debajo del texto mas un enter. 
+
+---
+Este es un texto, linea divisora creada por 3 guiones bajos (___) debajo del texto
+___ 
+
+
+
