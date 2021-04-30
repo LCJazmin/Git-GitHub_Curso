@@ -152,7 +152,8 @@ Asi se crea una cita en Markdown
 > Esto es el contenido de la cita
 ```
 Resultado
-> Esto es el contenido de la cita
+S
+> Esto es el contenido de la cita mas
 
 # LINEAS DIVISORAS
 Este es un texto, linea divisora creada por 3 asteriscos (***) debajo del texto
